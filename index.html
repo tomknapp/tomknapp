@@ -1,144 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Graph Marketing Ltd. - Customer Graphs, Social Graphs, Search Graphs">
     <meta name="author" content="Tom Knapp">
-    <link rel="icon" href="favicon.ico">
-
-    <title>Graph.Marketing - Customer Graphs // Social Graphs // Search Graphs</title>
+    <title>Graph.Marketing - Data Quality // Graph Databases</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <!--<script src="js/ie-emulation-modes-warning.js"></script> -->
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!-- <script src="js/ie10-viewport-bug-workaround.js"></script> -->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
 
     <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="images/Logo.png" width="45" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+      Graph Marketing
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
 
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Graph.Marketing</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <!--
-                <li class="active"><a href="#">Home</a></li>
-                -->
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#customergraph">Customer Graphs</a></li>
-                    <li><a href="#recommendationengine">Recommendation Engines</a></li>
-                    <li><a href="#socialgraph">Social Graph Campaigns</a></li>
-                  </ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                </li>
-              </ul>
-            </div>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#customergraph">Customer Graphs</a>
+            <a class="dropdown-item" href="#recommendationengine">Recommendation Engines</a>
+            <a class="dropdown-item" href="#socialgraph">Social Graph Campaigns</a>
           </div>
-        </div>
-
-      </div>
+        </li>
+      </ul>
+      <!--
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      -->
     </div>
+  </nav>
 
+  <main role="main">
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <div class="item" style="background: url(images/Graph_Grid_Slide1.png) no-repeat left center; background-size: cover;">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Customer Insight</h1>
-                <p>Bring all of your customer data together into a Single Customer Graph. Gain insight into your customers' behaviour and leverage that knowledge to drive tailored dynamic content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="item" style="background: url(images/Graph_Grid_Slide2.png) no-repeat left center; background-size: cover;">   
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Triggered Conversations</h1>
-                <p>Act on the information your customers are providing in real-time to maintain first mover advantage. Use data from all customer touch points to drive multi-channel conversations.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="item" style="background: url(images/Graph_Grid_Slide3.png) no-repeat left center; background-size: cover;">   
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Tailored Recommendations</h1>
-                <p>Use the knowledge of search and transactional behaviour from your Customer Graph to make tailored recommendations to new and existing customers. Identify real time cross-sell and up-sell opportunities.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <!-- <div class="jumbotron" style="background: url(images/Graph_Grid_Slide2.png) no-repeat left center; background-size: cover;"> -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Graph Marketing</h1>
+      <p>Welcome to Graph Marketing. We are a software consultancy specialising in Data Quality and Graph Data Modelling and Analysis. We offer a range of consultancy services as well as data quality and analysis products and APIs.</p>
+      <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+    </div>
+  </div>
 
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-          
-        <A NAME="customergraph"></A>
+  <div class="container">
+   <div class="row">
+     <A NAME="customergraph"></A>
         <div class="col-lg-4">
-          <img class="img-circle" src="images/Customer_Graph2.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="images/Customer_Graph2.png" alt="Customer Graph Image" style="width: 140px; height: 140px;">
           <h2>Customer Graphs</h2>
           <p>Bring all of your knowledge of your customers together into a Customer Graph. Realise the power of related data to analyse your customers' behaviour and trigger real time, tailored messages to multiple channels. Manage the conversations you have with your customers through a sophisticated rules engine. Built using the power of <a target="_new" href="http://www.neo4j.com">Neo4j</a> - "The World's Leading Graph Database".</p>
           <!--
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
           -->
         </div><!-- /.col-lg-4 -->
-        
-        <A NAME="recommendationengine"></A>
+
+    <A NAME="recommendationengine"></A>
         <div class="col-lg-4">
-          <img class="img-circle" src="images/Recommendations.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="images/Recommendations.png" alt="Recommendation Engine mage" style="width: 140px; height: 140px;">
           <h2>Recommendation Engines</h2>
           <p>Generate product recommendations using the power of graph algorithms to analyse product relationships and customer behaviour. Deliver recommendations in real time to your website or marketing channels.</p>
           <!--
@@ -146,9 +107,9 @@
           -->
         </div><!-- /.col-lg-4 -->
 
-        <A NAME="socialgraph"></A>
+    <A NAME="socialgraph"></A>
         <div class="col-lg-4">
-          <img class="img-circle" src="images/Social_Graph2.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="images/Social_Graph2.png" alt="Social Graph Image" style="width: 140px; height: 140px;">
           <h2>Social Graph Campaigns</h2>
           <p>Capture activity from Twitter and other social networks to find out who is talking about your industry and brand. Use Natural Language Processing to capture the subject and sentiment of what is being said. Segment your customers and prospects with this knowledge and identify your social influencers. Run influencer campaigns to find new customers and to improve your brand awareness and image.</p>
           <!--
@@ -157,30 +118,21 @@
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
+  </div> <!-- /container -->
 
-      <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Customer Graph Integration. <span class="text-muted">Unlock your Customer Graph.</span></h2>
-          <p class="lead">Access your customer data in real time with a REST API. Search for your customers with a fuzzy match engine to ensure no duplication. Verify your customers and prospects and obtain a full picture of their history and contact points. Update your customers' details in real time to ensure that all contact details and preferences are available to all touch points. Capture search history and transactional history to drive your customers' recommendations through dynamic content.</p>
-        </div>
-        <div class="col-md-5">
-          <!--
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          -->
-        </div>
-      </div>
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+  <div class="container">
 
       <hr class="featurette-divider">
-      
+
       <A NAME="about"></A>
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">About Us. <span class="text-muted">Experienced Database Marketing Specialists.</span></h2>
-          <p class="lead">With over twelve years designing and developing database marketing solutions for clients in all sectors, we have a wealth of knowledge and experience to bring to the new era of graph marketing. Your customers expect real time, relevant and personal conversations with you over the channels they choose. We can offer the flexibility that a customer graph database allows including the ability to integrate with existing and evolving communication channels.</p>
+          <p class="lead">With over fifteen years designing and developing database marketing solutions for clients in all sectors, we have a wealth of knowledge and experience to bring to the new era of graph marketing. Your customers expect real time, relevant and personal conversations with you over the channels they choose. We can offer the flexibility that a customer graph database allows including the ability to integrate with existing and evolving communication channels.</p>
         </div>
         <div class="col-md-5">
           <!--
@@ -200,30 +152,27 @@
         <div class="col-md-5">
           <!--
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          -->          
+          -->
         </div>
       </div>
 
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
+  </div> <!-- /container -->
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2020 Graph Marketing Ltd.<!-- &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> -->
-        </p>
-      </footer>
+</main>
 
-    </div><!-- /.container -->
-
+<footer class="container">
+  <p>&copy; 2020 Graph Marketing Ltd.</p>
+</footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/docs.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     <!-- Google Analytics
     ================================================== -->
