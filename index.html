@@ -9,7 +9,6 @@
     <title>Graph.Marketing - Data Quality // Graph Databases</title>
 
     <!-- Bootstrap core CSS -->
-    <!link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <style>
@@ -37,7 +36,7 @@
   <body>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a class="navbar-brand" href="#">
-      <img src="images/Logo.png" width="45" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+      <img src="images/Logo.png" width="45" height="30" class="d-inline-block align-top" alt="" loading="lazy"/>
       Graph Marketing
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,7 +72,8 @@
     </div>
   </nav>
 
-  <main role="main">
+  <!-- <main role="main"> -->
+  <main>
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <!-- <div class="jumbotron" style="background: url(images/Graph_Grid_Slide2.png) no-repeat left center; background-size: cover;"> -->
@@ -87,18 +87,16 @@
 
   <div class="container">
    <div class="row">
-     <A NAME="customergraph"></A>
-        <div class="col-lg-4">
+        <div class="col-lg-4" id="customergraph">
           <img class="img-circle" src="images/Customer_Graph2.png" alt="Customer Graph Image" style="width: 140px; height: 140px;">
           <h2>Customer Graphs</h2>
-          <p>Bring all of your knowledge of your customers together into a Customer Graph. Realise the power of related data to analyse your customers' behaviour and trigger real time, tailored messages to multiple channels. Manage the conversations you have with your customers through a sophisticated rules engine. Built using the power of <a target="_new" href="http://www.neo4j.com">Neo4j</a> - "The World's Leading Graph Database".</p>
+          <p>Bring all of your knowledge of your customers together into a Customer Graph. Realise the power of related data to analyse your customers' behaviour and trigger real time, tailored messages to multiple channels. Manage the conversations you have with your customers through a sophisticated rules engine. Built using the power of <a target="_blank" href="http://www.neo4j.com">Neo4j</a> - "The World's Leading Graph Database".</p>
           <!--
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
           -->
         </div><!-- /.col-lg-4 -->
 
-    <A NAME="recommendationengine"></A>
-        <div class="col-lg-4">
+        <div class="col-lg-4" id="recommendationengine">
           <img class="img-circle" src="images/Recommendations.png" alt="Recommendation Engine mage" style="width: 140px; height: 140px;">
           <h2>Recommendation Engines</h2>
           <p>Generate product recommendations using the power of graph algorithms to analyse product relationships and customer behaviour. Deliver recommendations in real time to your website or marketing channels.</p>
@@ -107,8 +105,7 @@
           -->
         </div><!-- /.col-lg-4 -->
 
-    <A NAME="socialgraph"></A>
-        <div class="col-lg-4">
+        <div class="col-lg-4" id="socialgraph">
           <img class="img-circle" src="images/Social_Graph2.png" alt="Social Graph Image" style="width: 140px; height: 140px;">
           <h2>Social Graph Campaigns</h2>
           <p>Capture activity from Twitter and other social networks to find out who is talking about your industry and brand. Use Natural Language Processing to capture the subject and sentiment of what is being said. Segment your customers and prospects with this knowledge and identify your social influencers. Run influencer campaigns to find new customers and to improve your brand awareness and image.</p>
@@ -128,8 +125,7 @@
 
       <hr class="featurette-divider">
 
-      <A NAME="about"></A>
-      <div class="row featurette">
+      <div class="row featurette" id="about">
         <div class="col-md-7">
           <h2 class="featurette-heading">About Us. <span class="text-muted">Experienced Database Marketing Specialists.</span></h2>
           <p class="lead">With over fifteen years designing and developing database marketing solutions for clients in all sectors, we have a wealth of knowledge and experience to bring to the new era of graph marketing. Your customers expect real time, relevant and personal conversations with you over the channels they choose. We can offer the flexibility that a customer graph database allows including the ability to integrate with existing and evolving communication channels.</p>
@@ -142,11 +138,10 @@
       </div>
 
       <hr class="featurette-divider">
-      <A NAME="contact"></A>
-      <div class="row featurette">
+      <div class="row featurette" id="contact">
         <div class="col-md-7">
           <h2 class="featurette-heading">Contact Us. <span class="text-muted">For more information or to talk through your requirements.</span></h2>
-          <p class="lead">We would love to hear from you... </br>
+          <p class="lead">We would love to hear from you...
           <a href="mailto:enquiries@graph.marketing">Send us an email</a> and we will respond to you as soon as we can.</p>
         </div>
         <div class="col-md-5">
