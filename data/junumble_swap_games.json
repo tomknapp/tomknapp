@@ -12,7 +12,7 @@
         },
         {
             "id": "2",
-            "gameDescription": "Barcelona Tile",
+            "gameDescription": "Mosaic Tile",
             "gridSize": 4,
             "gameDepth": 2,
             "imageURL": "https://www.graph.marketing/data/images/IMG_6110.png",
