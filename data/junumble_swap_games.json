@@ -1,0 +1,32 @@
+{
+    "version": "0.1",
+    "games": [
+        {
+            "id": "1",
+            "gameDescription": "Pyramids",
+            "gridSize": 5,
+            "gameDepth": 1,
+            "imageURL": "https://www.graph.marketing/data/images/IMG_1495.png",
+            "thumbnailURL": "https://www.graph.marketing/data/images/IMG_1495_thumb.png",
+            "category": "Geometric"
+        },
+        {
+            "id": "2",
+            "gameDescription": "Barcelona Tile",
+            "gridSize": 4,
+            "gameDepth": 2,
+            "imageURL": "https://www.graph.marketing/data/images/IMG_6110.png",
+            "thumbnailURL": "https://www.graph.marketing/data/images/IMG_6110_thumb.png",
+            "category": "Geometric"
+        },
+        {
+            "id": "3",
+            "gameDescription": "Luminarium",
+            "gridSize": 5,
+            "gameDepth": 1,
+            "imageURL": "https://www.graph.marketing/data/images/IMG_8170.png",
+            "thumbnailURL": "https://www.graph.marketing/data/images/IMG_8170_thumb.png",
+            "category": "Geometric"
+        }
+    ]
+}
