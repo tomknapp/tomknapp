@@ -27,6 +27,33 @@
             "imageURL": "https://www.graph.marketing/data/images/IMG_8170.png",
             "thumbnailURL": "https://www.graph.marketing/data/images/IMG_8170_thumb.png",
             "category": "Geometric"
+        },
+        {
+            "id": "4",
+            "gameDescription": "Greymouth, New Zealand",
+            "gridSize": 4,
+            "gameDepth": 2,
+            "imageURL": "https://www.graph.marketing/data/images/hua-ling-AVK5sdLqZ3k-unsplash.png",
+            "thumbnailURL": "https://www.graph.marketing/data/images/hua-ling-AVK5sdLqZ3k-unsplash_thumb.png",
+            "category": "Landscapes"
+        },
+        {
+            "id": "5",
+            "gameDescription": "Fruit Salad",
+            "gridSize": 3,
+            "gameDepth": 2,
+            "imageURL": "https://www.graph.marketing/data/images/shayna-douglas-H8qwryGP_h0-unsplash.png",
+            "thumbnailURL": "https://www.graph.marketing/data/images/shayna-douglas-H8qwryGP_h0-unsplash_thumb.png",
+            "category": "Food and Drink"
+        },
+        {
+            "id": "6",
+            "gameDescription": "Berries",
+            "gridSize": 4,
+            "gameDepth": 1,
+            "imageURL": "https://www.graph.marketing/data/images/rodion-kutsaev-4k8xEFW4_3Q-unsplash.png",
+            "thumbnailURL": "https://www.graph.marketing/data/images/rodion-kutsaev-4k8xEFW4_3Q-unsplash_thumb.png",
+            "category": "Food and Drink"
         }
     ]
 }
