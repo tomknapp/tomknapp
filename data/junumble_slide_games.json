@@ -63,6 +63,15 @@
             "imageURL": "https://www.graph.marketing/data/images/lazarescu-alexandra-AZJrf0D6Vvo-unsplash.png",
             "thumbnailURL": "https://www.graph.marketing/data/images/lazarescu-alexandra-AZJrf0D6Vvo-unsplash_thumb.png",
             "category": "Food and Drink"
+        },
+        {
+            "id": "8",
+            "gameDescription": "Soviet Union Mosaic",
+            "gridSize": 3,
+            "gameDepth": 1,
+            "imageURL": "https://www.graph.marketing/data/images/dzha-CZDRMuxqKHM-unsplash.png",
+            "thumbnailURL": "https://www.graph.marketing/data/images/dzha-CZDRMuxqKHM-unsplash_thumb.png",
+            "category": "Geometric"
         }
     ]
 }
