@@ -2,7 +2,7 @@
   "version": "0.1",
   "games": [
     {
-      "id": "1",
+      "id": "1eacc85d-f6b7-454d-8877-4c463eff284b",
       "gameDescription": "Pyramids",
       "gridSize": 5,
       "gameDepth": 1,
@@ -11,7 +11,7 @@
       "category": "Geometric"
     },
     {
-      "id": "2",
+      "id": "dc6df543-d85e-4814-b85f-a1a190e29bd0",
       "gameDescription": "Mosaic Tile",
       "gridSize": 4,
       "gameDepth": 2,
@@ -20,7 +20,7 @@
       "category": "Geometric"
     },
     {
-      "id": "3",
+      "id": "893404d2-2d72-42cf-b2fe-1aeb9158d72d",
       "gameDescription": "Luminarium",
       "gridSize": 5,
       "gameDepth": 1,
@@ -29,7 +29,7 @@
       "category": "Geometric"
     },
     {
-      "id": "4",
+      "id": "f946170c-f0f2-45ef-bbbd-5f8951a151f7",
       "gameDescription": "Greymouth, New Zealand",
       "gridSize": 4,
       "gameDepth": 2,
@@ -38,7 +38,7 @@
       "category": "Landscape"
     },
     {
-      "id": "5",
+      "id": "68586768-6143-44b3-b2e1-b2072973ce52",
       "gameDescription": "Fruit Salad",
       "gridSize": 3,
       "gameDepth": 2,
@@ -47,7 +47,7 @@
       "category": "Food and Drink"
     },
     {
-      "id": "6",
+      "id": "1e3ed9f3-b2b5-4abc-8c95-c415a5857795",
       "gameDescription": "Berries",
       "gridSize": 4,
       "gameDepth": 1,
@@ -56,7 +56,7 @@
       "category": "Food and Drink"
     },
     {
-      "id": "7",
+      "id": "cc29724e-7d4e-4020-abf9-79af1ae19a73",
       "gameDescription": "Coffee",
       "gridSize": 5,
       "gameDepth": 1,
@@ -65,7 +65,7 @@
       "category": "Food and Drink"
     },
     {
-      "id": "8",
+      "id": "7041328c-4c51-46ed-b2fc-da731d43e96a",
       "gameDescription": "Soviet Union Mosaic",
       "gridSize": 4,
       "gameDepth": 2,
